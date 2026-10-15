@@ -60,16 +60,24 @@ src/
 
 3. Ejecutar las clases de prueba:
    - Para probar la **cola Estatica:**
-     ´´´bash
+     ```bash
      java Main
-     ´´´
+     ```
    - Para probar la **cola Estatica Circular:**
-     ´´´bash
+     ```bash
      java MainColaEstaticaCircular
-     ´´´
+     ``` 
    - para probar la **cola Dinamica:**
      ```bash
      java MainColaDinamica
      ```
 ---
+## conclucion
+
+La cola estática es útil en contextos muy simples, pero su incapacidad para reutilizar espacio desencolado la vuelve ineficiente.
+
+La cola estática circular soluciona de forma elegante el desperdicio de memoria utilizando la aritmética modular, siendo la mejor opción cuando se conoce el límite máximo de elementos a procesar y se busca un rendimiento óptimo de memoria contigua.
+
+La cola dinámica ofrece máxima flexibilidad para sistemas con alta variabilidad en el volumen de datos, eliminando restricciones de capacidad predefinidas gracias al uso de referencias enlazadas.
+
 

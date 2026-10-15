@@ -49,23 +49,27 @@ src/
 
 1. Clonar el repositorio y acceder a la carpeta del proyecto:
    ´´´bash
-   git clone <>
-   cd <pilas_estaticas_y_dinamicas_en_java>
+   git clone <https://github.com/mfsl010906-hash/cola-estatica-estatica-circular-y-dinamica.git>
+   cd <cola-estatica-estatica-circular-y-dinamica>
    ´´´
 
 2. Compilar los archivos fuente:
    ´´´bash
-   javac *.java
+   java *.java
    ´´´
 
 3. Ejecutar las clases de prueba:
-   - Para probar la **Pila Estática:**
-     ´´´bash
-     java LanzadorPilaSimple
-     ´´´
-   - Para probar la **Pila Dinámica:**
+   - Para probar la **cola Estatica:**
      ´´´bash
      java Main
      ´´´
-
+   - Para probar la **cola Estatica Circular:**
+     ´´´bash
+     java MainColaEstaticaCircular
+     ´´´
+   - para probar la **cola Dinamica:**
+     ```bash
+     java MainColaDinamica
+     ```
 ---
+

@@ -43,12 +43,29 @@ src/
 
 ---
 
-##🚀 Instrucciones de Ejecución
+## 🛠️ Instrucciones para Compilar y Ejecutar
 
-1. **Clona este repositorio o descarga los archivos fuente en tu entorno de desarrollo de Java favorito (como IntelliJ IDEA o Eclipse).
-Asegúrate de respetar la estructura de paquetes indicada.
-Ejecuta de forma independiente cada una de las tres clases Main según la variante que desees probar:  
-Main.java (Cola Estática Lineal)
-MainColaEstaticaCircular.java (Cola Estática Circular)
-MainColaDinamica.java (Cola Dinámica)
+### Desde la Terminal/Consola
+
+1. Clonar el repositorio y acceder a la carpeta del proyecto:
+   ´´´bash
+   git clone <>
+   cd <pilas_estaticas_y_dinamicas_en_java>
+   ´´´
+
+2. Compilar los archivos fuente:
+   ´´´bash
+   javac *.java
+   ´´´
+
+3. Ejecutar las clases de prueba:
+   - Para probar la **Pila Estática:**
+     ´´´bash
+     java LanzadorPilaSimple
+     ´´´
+   - Para probar la **Pila Dinámica:**
+     ´´´bash
+     java Main
+     ´´´
+
 ---
